@@ -50,14 +50,13 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.5</version>
 				<executions> 
-					<execution>  
-						<id>pre-test</id>  
+					<execution> 
 						<goals>  
 						  <goal>prepare-agent</goal>  
 						</goals>  
 					  </execution> 
 					<execution>  
-					  <id>post-test</id>  
+					  <id>report</id>  
 					  <phase>test</phase>  
 					  <goals>  
 							<goal>report</goal>  
